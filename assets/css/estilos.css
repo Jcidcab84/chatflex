@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.todo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    
+}
+
+
+.principal{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+
+ 
+.logo i{
+    border: 2px white solid;
+    background-color: rgb(112, 85, 185);
+    color: white;
+    font-size: 13rem;
+    padding: 1rem;    
+} 
+
+.logo h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.logo p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+/* .personas */
+
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+.maria{
+    border:1px rgb(147, 150, 154) solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+   
+}
+
+.fotomaria{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+
+.datos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nombre h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nombre p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+.iconos {
+    font-size: 20px;
+    display: flex;
+    gap:25px;
+    color: rgb(147, 150, 154);
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px; 
+    border:1px rgb(147, 150, 154) solid;
+    
+    
+}
+
+
+button{
+    background: rgb(112, 85, 185);
+    color: white;
+    border: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: 300;
+    font-size: 0.8rem;
+    cursor: pointer;
+    
+}
+
+/* juanita */
+.juanita{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    border:1px rgb(147, 150, 154) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+   
+}
+
+
+.juanita .nombre h3{
+    font-size: 1rem;
+  
+  
+}
+
+.juanita .nombre p{
+    font-size: 0.8rem;
+}
+
+/* alberto */
+.alberto{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    border:1px rgb(147, 150, 154) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.alberto .nombre h3{
+    font-size: 1rem;
+}
+
+.alberto .nombre p{
+    font-size: 0.8rem;
+}
+
+/* ignacio */
+.ignacio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+    border:1px rgb(147, 150, 154) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.ignacio .nombre h3{
+    font-size: 1rem;
+}
+
+.ignacio .nombre p{
+    font-size: 0.8rem;
+}
+
+/* cristian */
+.cristian{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    border:1px rgb(147, 150, 154) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cristian .nombre h3{
+    font-size: 1rem;
+}
+
+.cristian .nombre p{
+    font-size: 0.8rem;
+}
+
+/* mariajose */
+.mariajose{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    border:1px rgb(147, 150, 154) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mariajose .nombre h3{
+    font-size: 1rem;
+}
+
+.mariajose .nombre p{
+    font-size: 0.8rem;
+}
+
+/* gonzalo */
+.gonzalo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    border:1px rgb(147, 150, 154) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gonzalo .nombre h3{
+    font-size: 1rem;
+}
+
+.gonzalo .nombre p{
+    font-size: 0.8rem;
+}
+
+/* juanpablo */
+.juanpablo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    border:1px rgb(147, 150, 154) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.juanpablo .nombre h3{
+    font-size: 1rem;
+}
+
+.juanpablo .nombre p{
+    font-size: 0.8rem;
+}
+
+/* magdalena */
+.magdalena{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    border:1px rgb(147, 150, 154) solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.magdalena .nombre h3{
+    font-size: 1rem;
+}
+
+.magdalena .nombre p{
+    font-size: 0.8rem;
+}
+
+/* fotos */
+
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+   
+}
